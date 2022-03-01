@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: rgb(7, 126, 7);
+    background-image: url("./gambar/bkg-rumput.jpeg");
+}
+
+.box{
+    display: inline-block;
+    padding: 18px;
+    border: solid 1px lightblue;
+    border-radius: 10px;
+    overflow-y: hidden;
+    background-color: beige;
+    vertical-align: top;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.box-vertical{
+    width: 20%;   
+    height: 520px;
+    margin: 20px 10px;
+}
+
+.box-horizontal{
+    width: auto;   
+    height: auto;
+    margin: 15px; 
+}
+
+.gambar-kecil{
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+#main{
+    min-height: 100%;
+    min-width: 95%;
+    text-align: center;
+}
+
+#header{
+    position: relative;
+    font-size:25px;
+    color:#e5e7ee;
+    background: rgb(49,168,5);
+    background: linear-gradient(90deg, rgb(49 168 5 / 55%) 3%, rgb(2 52 8 / 0%) 100%);
+    width: 100%;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#content{
+    background-color: rgb(238 232 232 / 7%);
+    display: inline-block;
+    overflow: visible;
+    padding-top: 30px;
+    text-align: center;
+    width: 95%;
+}
+
+#footer{
+    background: rgb(49,168,5);
+    background: linear-gradient(90deg, rgb(1 2 0 / 99%) 3%, rgb(0 8 1 / 64%) 100%);
+    padding: 5px 0;
+    color: rgb(237 139 11 / 92%);
+    line-height: 2.5;
+}
+
+#box_5{
+    background-color: rgb(70 170 12 / 93%);
+    background: linear-gradient(90deg, rgb(1 2 0 / 87%) 3%, rgb(2 52 8 / 68%) 100%);
+    color: aliceblue;
+    border-color: #86cf8299;
+}

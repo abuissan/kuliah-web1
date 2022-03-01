@@ -59,25 +59,34 @@ body {
 
 #header{
     position: relative;
-    font-size:25px;
-    color:#e5e7ee;
     background: rgb(49,168,5);
     background: linear-gradient(90deg, rgb(49 168 5 / 55%) 3%, rgb(2 52 8 / 0%) 100%);
     width: 100%;
-    text-align: center;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    display: inline-block;
+    display: inline-flex;
 }
 
-#header > div .blog-title > h1{
+#header > div.blog-title{
+    text-align: left;
+    padding-left: 20px; 
+    margin: 0px;
+    width: 60%;
+    color: aliceblue;
+}
+
+#header > div.blog-menu{
+    padding-right: 40px; 
+    margin: auto;
+    width: 60%;
+}
+
+#header > div.blog-title > h1{
     text-align: left;
     padding-left: 20px; 
     margin: 0px;
 }
 
 
-#header > div .blog-title > p{
+#header > div.blog-title > p{
     margin-top: -5px; 
     text-align:  left; 
     padding-left: 20px; 
@@ -87,17 +96,15 @@ body {
     text-shadow: 1px 2px 2px #8d7f4ef2;
 }
 
-#header > div .blog-menu > ul {
-    display: flex;
-    height: 100%;
-    width: 55%;
+#header > div.blog-menu > ul {
+    display: inline-flex;
+    width: 100%;
     float: right;
-    padding: 0;
 }
 
-#header > div .blog-menu > ul > li {
-     width: 75%;
-     padding: 0.1em;
+#header > div.blog-menu > ul > li {
+     width: 100%;
+     padding: 0.5em;
      list-style: none;
      cursor: pointer;
      position: relative;
@@ -106,44 +113,44 @@ body {
      border: solid 1px #19610ac4;
 }
 
-#header > div .blog-menu > ul > li > a {
+#header > div.blog-menu > ul > li > a {
     text-decoration: none;
     color: #7cb839;
 }
 
-#header > div .blog-menu > ul > li:hover {
+#header > div.blog-menu > ul > li:hover {
   background: rgb(89 220 35 / 32%);
   color: white;
 }
 
-#header > div .blog-menu > ul > li > ul {
+#header > div.blog-menu > ul > li > ul {
     position: absolute;
     top: 100%; /* the height of the main nav */
     background: rgba(0,0,0, 0.1);
-    left: -1px;
+    left: -2px;
     list-style: none;
     display: none;
-    width: 82%;
-    /* height: 50px; */
+    width: 80%;
+    /*! height: 50px; */
 }
 
-#header > div .blog-menu > ul ul > li {
-  padding: 0.2em 1em;
-  background-color: #318601;
+#header > div.blog-menu > ul ul > li {
+  padding: 0.5em;
+  background-color: #21620c;
   margin-left: -40px;
 }
 
-#header > div .blog-menu > ul ul > li > a {
+#header > div.blog-menu > ul ul > li > a {
    text-decoration: none;
    color: #b3b910;
 }
 
-#header > div .blog-menu > ul ul > li:hover {
-   background: rgb(39 99 13);
-   text-decoration: underline;
+#header > div.blog-menu > ul ul > li:hover {
+   background: rgb(51, 125, 19);
+   text-decoration: none;
 }
 
-#header > div .blog-menu > ul li:hover > ul { 
+#header > div.blog-menu > ul li:hover > ul { 
   display: block;
 }
 
@@ -156,6 +163,15 @@ body {
     width: 95%;
 }
 
+.judul-artikel{
+    background: rgb(49,168,5);
+    background: linear-gradient(90deg, rgb(1 2 0 / 99%) 3%, rgba(16, 21, 17, 0.23) 100%);
+    padding-top: 15px;
+    color: rgba(157, 235, 18, 0.75);
+    line-height: 2;
+    margin-top: -30px;
+    font-size: 2.4em;
+}
 #footer{
     background: rgb(49,168,5);
     background: linear-gradient(90deg, rgb(1 2 0 / 99%) 3%, rgb(0 8 1 / 64%) 100%);
